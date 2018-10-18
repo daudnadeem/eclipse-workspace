@@ -1,0 +1,23 @@
+package com.qa.Library;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class LibraryItemTester {
+
+//	@Test
+//	public void getItemID() throws Exception {
+//		Book book1 = new Book("Harry Pottah", 1, "JKRowling" , "Fiction");
+//		Book book2 = new Book("Harry Pottah", 2, "JKRowling", "Fiction");
+//
+//		assertEquals(2, book2.getId());
+//
+//	}
+	
+	@Test
+	public void getAuthor() throws Exception{
+		Journal j1 = new Journal("Journal", 100, "auth1", "15Sep");
+		assertEquals("auth1", j1.getAuthor());
+	}
+}

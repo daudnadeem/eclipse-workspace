@@ -1,0 +1,15 @@
+package com.qa.Library;
+
+import java.util.concurrent.atomic.AtomicInteger;
+
+public abstract class LibraryItems {
+
+	protected static int itemID;
+	
+	public LibraryItems(int itemID) {
+		private static final AtomicInteger count = new AtomicInteger(); 
+		itemID = count.incrementAndGet(); 
+	}
+
+
+}

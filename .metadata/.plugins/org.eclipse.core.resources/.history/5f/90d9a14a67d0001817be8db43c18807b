@@ -1,0 +1,10 @@
+package com.qa.Library;
+
+public class Books extends LibraryItems {
+
+	public Books(int itemID) {
+		super();
+		
+	}
+
+}

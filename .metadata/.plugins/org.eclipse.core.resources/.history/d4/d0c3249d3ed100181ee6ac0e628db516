@@ -1,0 +1,19 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Translator {
+	
+	public static void main(String[] args) {
+		
+		String toEnglish = ".... . .-.. .-.. --- / -.. .- .. .-.. -.-- / .--. .-. --- --. .-. .- -- -- . .-. / --. --- --- -.. / .-.. ..- -.-. -.- / --- -. / - .... . / -.-. .... .- .-.. .-.. . -. --. . ... / - --- -.. .- -.—​";
+		
+		Map<String,String> mymap = new HashMap<String, String>(); 
+		
+		mymap.put("A", ".-");
+		mymap.put("B", "-...");
+		mymap.put("C", "-.-.");
+		
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.qa.Library;
+
+public class Journals extends LibraryItem{
+	
+	private String author;
+	private String dateOfCreation;
+
+	public Journals(String name, int id) {
+		super(name, id);
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

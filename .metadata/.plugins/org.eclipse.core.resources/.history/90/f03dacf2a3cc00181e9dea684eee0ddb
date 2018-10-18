@@ -1,0 +1,46 @@
+package com.qa.Garage;
+
+
+import java.util.ArrayList;
+import java.util.stream.Collectors;
+
+public class Garage {
+	ArrayList<Vehicle> vehicles;
+
+	public Garage() {
+		vehicles = new ArrayList<Vehicle>();
+	}
+
+	public Garage(ArrayList<Vehicle> vehicles) {
+		super();
+		this.vehicles = vehicles;
+	}
+
+	public void addVehicle(Vehicle vehicle) {
+		vehicles.add(vehicle);
+	}
+	
+	public ArrayList<Vehicle> listVehicles() {
+		return vehicles;
+	}
+	
+	public  void  addCar(String brandName, String model, String colour, int engineSize, int yearOfMake, String licensePlate) {
+		Car newCar = new Car(brandName, model, colour, engineSize, yearOfMake, licensePlate);
+		vehicles.add(newCar);
+	}
+
+	public void addMotorcycle(String brandName, String model, String typeOfMotorCycle, int engineSize, int year, String licensePlate) {
+		Motorcycle newMC = new Motorcycle(brandName, model, typeOfMotorCycle, engineSize, year, licensePlate);
+		vehicles.add(newMC);
+
+	}
+	
+	public void calcDollah() {
+//		vehicles.stream().filter(x -> x.getEngineSize().equals(1))
+		System.out.println(vehicles.stream().filter(x -> x.getEngineSize() == (2) && x -> x.getYearOfMake() == (2002)).collect(Collectors.toList()));
+		
+		
+		
+	}
+
+}

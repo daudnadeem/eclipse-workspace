@@ -1,0 +1,22 @@
+package com.qa.TestDriven;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+//import org.hamcrest.Matcher;
+
+public class ArrayUtilsTest {
+
+	int[] array = { 20, 9, 0, 20 };
+
+	@Test
+	public void findHighestInArrayOfOne() {
+		
+		assertEquals(20,ArrayUtils.findHighest(array));
+		
+		
+//		assertThat(ArrayUtils.findHighest(array), is(10));
+
+	}
+
+}

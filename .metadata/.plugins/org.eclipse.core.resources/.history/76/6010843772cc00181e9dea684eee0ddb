@@ -1,0 +1,58 @@
+package com.qa.Delegate;
+
+import java.util.ArrayList;
+
+public class Person {
+
+	public String name;
+	public int age;
+	public String jobTitle;
+	public ArrayList<Person> ppl = new ArrayList<Person>();
+
+	
+	public Person() {
+
+	}
+
+	public Person(String name, int age, String jobTitle) {
+		this.name = name;
+		this.age = age;
+		this.jobTitle = jobTitle;
+		ppl.add(this);
+
+	}
+
+	public ArrayList<Person> getPpl() {
+		return ppl;
+	}
+
+	public String info() {
+		String info = "Name: " + name + "\n" + "Age: " + age + "\n" + "Job Title: " + jobTitle + "\n";
+		return info;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getJobTitle() {
+		return jobTitle;
+	}
+
+	public void setJobTitle(String jobTitle) {
+		this.jobTitle = jobTitle;
+	}
+
+}

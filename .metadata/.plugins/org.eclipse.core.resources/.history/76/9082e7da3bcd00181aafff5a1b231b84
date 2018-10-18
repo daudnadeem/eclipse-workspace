@@ -1,0 +1,12 @@
+package com.qa.TestDriven;
+
+public class Calculator {
+
+	private static NumberSource numberSource;
+
+	public static int addTwoNumbers() {
+		return numberSource.fetchNextNumber();
+		
+	}
+
+}

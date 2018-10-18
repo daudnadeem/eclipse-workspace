@@ -1,0 +1,17 @@
+
+public class ReverseString {
+
+	public static void main(String [] args) {
+		
+		 // Using traditional approach
+	    String result="Daud";
+	    for(int i=result.length()-1; i>=0; i--) {
+	        result = result.charAt(i);
+	    }
+	    System.out.println(result);
+
+	    // Using StringBuffer class
+	    StringBuffer buffer = new StringBuffer(result);
+	    System.out.println(buffer.reverse());    
+	}
+}

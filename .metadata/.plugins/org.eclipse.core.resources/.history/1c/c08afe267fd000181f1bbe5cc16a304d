@@ -1,0 +1,22 @@
+package com.qa.FlyWeightPattern;
+
+import java.util.HashMap;
+
+public class ShapeFactory {
+
+   // Uncomment the compiler directive line and
+   // javac *.java will compile properly.
+   // @SuppressWarnings("unchecked")
+   private static final HashMap circleMap = new HashMap();
+
+   public static Shape getCircle(String color) {
+      Square sqr = (Square)circleMap.get(color);
+
+      if(sqr == null) {
+    	  sqr = new Square(color);
+         circleMap.put(color, sqr);
+         System.out.println("Creating circle of color : " + color);
+      }
+      return sqr;
+   }
+}

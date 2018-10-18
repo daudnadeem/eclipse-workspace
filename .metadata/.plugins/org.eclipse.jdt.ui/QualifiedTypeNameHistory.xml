@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.function.BiFunction"/>
+<fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
+<fullyQualifiedTypeName name="LambdasCalc.MathOperation"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="com.qa.TestDriven.StringCalculator"/>
+<fullyQualifiedTypeName name="org.hamcrest.CoreMatchers"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="com.qa.Library.Person"/>
+<fullyQualifiedTypeName name="com.qa.Library.LibraryItems"/>
+<fullyQualifiedTypeName name="com.qa.Library.Books"/>
+<fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicInteger"/>
+<fullyQualifiedTypeName name="com.qa.Library.Journals"/>
+<fullyQualifiedTypeName name="com.qa.Library.Book"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,18 @@
+package com.qa.Garage;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		Car car1 = new Car("Toyota", "Supra", "Orange", "2JZ", 2017);
+		Car car2 = new Car("Toyota", "GLI", "Silver", "1300cc", 2012);
+		
+		Motorcycle mc1 = new Motorcycle("Harley Davidson", "modelOne", "Heavy Bike");
+		
+		
+		
+		
+		
+	}
+
+}

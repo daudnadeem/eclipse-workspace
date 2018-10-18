@@ -1,0 +1,25 @@
+package com.qa.Library;
+
+public class Runner {
+	
+	public static void main(String[] args) {
+//		Books book1 = new Books("Harry Pottah", 01, "Fiction");
+//		Books book2 = new Books("Harry Fottah", 02, "Fiction");
+//		System.out.println(book1.getItemID());
+//		System.out.println(book2.getItemID());
+		
+		LibraryItems lib1 = new LibraryItems(1);
+		
+		
+		Books book1 = new Books("book1", "type1");
+		Books book2 = new Books("book2", "type2");
+		Books book3 = new Books("book3", "type3");
+		System.out.println(book1.getItemID());
+		System.out.println(book2.getItemID());
+		System.out.println(book3.getItemID());
+		
+//		
+		
+	}
+
+}

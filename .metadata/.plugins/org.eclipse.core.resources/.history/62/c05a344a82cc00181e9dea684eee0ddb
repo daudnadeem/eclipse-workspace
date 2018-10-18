@@ -1,0 +1,16 @@
+package com.qa.Garage;
+
+public class Car extends Vehicle {
+	
+	String brandName;
+	
+	
+	int numberOfSeats = 0;
+
+	public int getNumberOfSeats() {
+		return this.numberOfSeats;
+	}
+
+
+
+}

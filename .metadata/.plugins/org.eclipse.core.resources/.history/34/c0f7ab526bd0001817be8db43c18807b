@@ -1,0 +1,20 @@
+package com.qa.Library;
+
+
+public abstract class LibraryItems {
+
+	static int itemID;
+	
+	public LibraryItems(int id) {
+		id = this.itemID;
+	}
+
+	public int getItemID() {
+		return itemID;
+	}
+
+	public static int setItemID(int itemID) {
+		return LibraryItems.itemID;
+	}
+
+}

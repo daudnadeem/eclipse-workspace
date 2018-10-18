@@ -1,0 +1,23 @@
+public class HelloCalculatorUsingBiFunction {
+
+	public Long process( long num1, long num2, BiFunction biFunc ) {
+		return (Long) biFunc.apply( num1, num2);
+	}
+
+	public static void main(String[] args) {		
+		HelloCalculatorUsingBiFunction hlbf = new HelloCalculatorUsingBiFunction();
+
+		BinaryOperator add = (x, y) -> x + y;		
+		System.out.println( "Addition: " + hlbf.process( 4, 5, add ));
+
+		BinaryOperator subtract = (x, y) -> x - y;		
+		System.out.println( "Subtraction: " + hlbf.process( 4, 5, subtract ));
+
+		BinaryOperator multiply = (x, y) -> x/y;		
+		System.out.println( "Multiplication: " + hlbf.process( 4, 5, multiply ));
+
+		BinaryOperator division = (x, y) -> x/y;		
+		System.out.println( "Division: " + hlbf.process( 4, 5, division ));
+	}
+
+}

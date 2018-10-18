@@ -1,0 +1,23 @@
+package com.qa.Garage;
+
+import java.util.ArrayList;
+
+public class Runner {
+	public static void main(String[] args) {
+		Garage g = new Garage();
+		Car car1 = new Car("Toyota", "Supra", "Orange", "2JZ", 2017, "ABC123");
+		Car car2 = new Car("Toyota", "GLI", "Silver", "1300cc", 2012, "CBA321");
+		
+		Motorcycle mc1 = new Motorcycle("Harley Davidson", "modelOne", "Heavy Bike", 2015, "DVD50N");
+		
+		Vehicle v1 = g.addCar("Nissan", "Skyline", "Purple", "2JZ", 2002, "NI55AN");
+		Vehicle v2 = g.addMotorcycle("Kawasaki", "ultraRed", "Sports Bike", 3000, "K4W4ZI");
+		
+		g.addVehicle(car1);
+		g.addVehicle(car2);
+		g.addVehicle(mc1);
+		g.addVehicle(v1);
+		g.addVehicle(v2);
+		
+		g.vehicles.stream().forEach(System.out::println);	}
+}

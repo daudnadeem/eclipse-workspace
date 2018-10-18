@@ -1,0 +1,29 @@
+package com.qa.Library;
+
+import java.util.ArrayList;
+
+public abstract class LibraryItem {
+
+	private String name;
+	private int id;
+	private ArrayList<LibraryItem> mainList; 
+	
+	public ArrayList<LibraryItem> getMainList() {
+		return mainList;
+	}
+
+	public LibraryItem (String name, int id) {
+		System.out.println("Creating new library item!");
+		this.name = name;
+		this.id = id;
+		mainList.add(this);
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getId() {
+		return id;
+	}
+}

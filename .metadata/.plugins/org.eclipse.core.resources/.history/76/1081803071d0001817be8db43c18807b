@@ -1,0 +1,23 @@
+package com.qa.Library;
+
+
+public abstract class LibraryItem {
+
+	private String name;
+	private int id;
+	ArrayList<LibraryItem> mainList; 
+	
+	public LibraryItem (String name, int id) {
+		System.out.println("Creating new library item!");
+		this.name = name;
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getId() {
+		return id;
+	}
+}

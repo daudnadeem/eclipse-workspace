@@ -1,0 +1,13 @@
+package com.qa.Library;
+
+public class Person {
+	
+	String name;
+	int ID;
+	
+	public Person() {
+		this.name = name;
+		this.ID = ID;
+	}
+
+}

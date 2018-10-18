@@ -1,0 +1,12 @@
+package com.qa.Library;
+
+public class Journals extends LibraryItem{
+	
+
+	public Maps(String name, int id) {
+		super(name, id);
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

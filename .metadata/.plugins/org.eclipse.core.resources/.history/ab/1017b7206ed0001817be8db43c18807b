@@ -1,0 +1,22 @@
+package com.qa.Library;
+
+public class Book extends LibraryItem {
+	private String type;
+	private String author;
+
+	
+	public Book(String name, int id, String author, String type) {
+		super(name, id);
+		this.author = author;
+		this.type = type;
+		
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	
+
+
+}

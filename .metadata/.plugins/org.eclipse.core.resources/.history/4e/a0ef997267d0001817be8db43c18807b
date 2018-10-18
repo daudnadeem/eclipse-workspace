@@ -1,0 +1,14 @@
+package com.qa.Library;
+
+public class Books extends LibraryItems {
+
+	private String name;
+	private String type;
+
+	public Books(String name, int itemID, String type) {
+		name = this.name;
+		
+		
+	}
+
+}

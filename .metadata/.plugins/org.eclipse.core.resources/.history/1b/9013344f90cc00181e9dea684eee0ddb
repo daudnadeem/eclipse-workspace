@@ -1,0 +1,14 @@
+package com.qa.Garage;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		Car car1 = new Car("Toyota", "Supra", "Orange", "2JZ", 2017);
+		
+		
+		
+		
+	}
+
+}

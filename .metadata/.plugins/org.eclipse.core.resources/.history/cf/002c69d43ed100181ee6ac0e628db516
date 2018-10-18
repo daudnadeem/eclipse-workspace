@@ -1,0 +1,44 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Translator {
+	
+	public static void main(String[] args) {
+		
+		String toEnglish = ".... . .-.. .-.. --- / -.. .- .. .-.. -.-- / .--. .-. --- --. .-. .- -- -- . .-. / --. --- --- -.. / .-.. ..- -.-. -.- / --- -. / - .... . / -.-. .... .- .-.. .-.. . -. --. . ... / - --- -.. .- -.—​";
+		
+		Map<String,String> mymap = new HashMap<String, String>(); 
+		
+		mymap.put("A", ".- ");
+		mymap.put("B", "-... ");
+		mymap.put("C", "-.-. ");
+		mymap.put("D", "-.. ");
+		mymap.put("E", ". ");
+		mymap.put("F", "..-. ");
+		mymap.put("G", "--. ");
+		mymap.put("H", ".... ");
+		mymap.put("I", ".. ");
+		mymap.put("J", ".--- ");
+		
+		mymap.put("K", "-.- ");
+		mymap.put("L", ".-.. ");
+		mymap.put("M", "-- ");
+		mymap.put("N", "-. ");
+		mymap.put("O", "--- ");
+		mymap.put("P", ".--. ");
+		mymap.put("Q", "--.- ");
+		mymap.put("R", " .-. ");
+		mymap.put("S", "... ");
+		mymap.put("T", "- ");
+		mymap.put("U", "..- ");
+		mymap.put("V", "...- ");
+		mymap.put("W", ".-- ");
+		mymap.put("X", " -..");
+		mymap.put("Y", " -..");
+		mymap.put("Z", " -..");
+		
+		
+		
+	}
+
+}

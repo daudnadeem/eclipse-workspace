@@ -1,0 +1,6 @@
+package com.qa.Garage;
+
+public abstract class Vehicle {
+
+	
+	}

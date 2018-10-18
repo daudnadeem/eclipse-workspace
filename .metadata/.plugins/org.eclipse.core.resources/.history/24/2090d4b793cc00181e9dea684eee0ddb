@@ -1,0 +1,43 @@
+package com.qa.Garage;
+
+import java.awt.List;
+import java.util.ArrayList;
+
+public class Garage extends Vehicle{
+
+	public static void main(String[] args) {
+		
+		Car car1 = new Car("Toyota", "Supra", "Orange", "2JZ", 2017, "ABC123");
+		Car car2 = new Car("Toyota", "GLI", "Silver", "1300cc", 2012, "CBA321");
+		
+		Motorcycle mc1 = new Motorcycle("Harley Davidson", "modelOne", "Heavy Bike", 2015, "DVD50N");
+		
+		addCar("Nissan", "Skyline", "Purple", "2JZ", 2002, "NI55AN");
+		addMotorcycle("Kawasaki", "ultraRed", "Sports Bike", 3000, "K4W4ZI");
+		
+		
+		ArrayList<Vehicle> vehicles = new ArrayList <Vehicle> ();
+		vehicles.add(car1);
+		vehicles.add(car2);
+		vehicles.add(mc1);
+		
+		vehicles.stream().forEach(System.out::println);
+
+	}
+	
+	public static Vehicle addCar(String brandName, String model, String colour, String engineSize,  int yearOfMake, String licensePlate
+			, ArrayList <Vehicle> arr) {
+		Car newCar =  new Car(brandName, model, colour, engineSize, yearOfMake, licensePlate);
+		arr.add(newCar);
+		return newCar;
+	}
+	
+	public static Vehicle addMotorcycle(String brandName, String model, String typeOfMotorCycle, int year, String licensePlate
+			, ArrayList <Vehicle> arr) {
+		Motorcycle newMC = new Motorcycle(brandName, model, typeOfMotorCycle, year, licensePlate);
+		arr.add(newMC);
+		return newMC;
+		
+	}
+
+}

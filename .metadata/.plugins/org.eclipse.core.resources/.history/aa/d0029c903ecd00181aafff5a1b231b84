@@ -1,0 +1,16 @@
+package com.qa.TestDriven;
+
+public class ArrayUtils {
+	
+
+	public static int findHighest(int[] numbers) {
+		
+		int[] array = { 2, 10, 9, 20 };
+		lowestValue = array[0];
+		for (int i=0; i<array.length; i++) {
+			
+		}
+		return 10;
+
+	}
+}

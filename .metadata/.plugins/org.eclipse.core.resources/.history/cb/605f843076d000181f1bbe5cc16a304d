@@ -1,0 +1,41 @@
+package com.qa.Library;
+
+import java.util.ArrayList;
+
+
+
+public abstract class LibraryItem {
+
+	private String name;
+	private int id;
+	private static ArrayList<LibraryItem> mainList; 
+	
+
+	public LibraryItem (String name, int id) {
+		System.out.println("Creating new library item!");
+		System.out.println(name + " " + id + " added");
+		this.name = name;
+		this.id = id;
+	}
+	
+	public Garage(ArrayList<Vehicle> vehicles) {
+		super();
+		this.vehicles = vehicles;
+	}
+
+	public static ArrayList<LibraryItem> getMainList() {
+		return mainList;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public int getId() {
+		return id;
+	}
+	
+	public static void addItem(LibraryItem item) {
+		mainList.add(item);
+	}
+}

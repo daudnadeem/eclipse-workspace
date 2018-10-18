@@ -1,0 +1,5 @@
+package com.qa.FlyWeightPattern;
+
+public class Circle {
+
+}
