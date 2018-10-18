@@ -5,6 +5,7 @@ public class Person {
 	protected String name;
 	protected int ID = 1;
 	protected int nextId = 1;
+	
 
 	public Person(String name) {
 		this.name = name;

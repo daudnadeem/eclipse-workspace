@@ -9,7 +9,7 @@ public abstract class LibraryItem {
 	private static int nextIdNumber = 1;
 	protected int id = 1;
 	boolean isAvail = true;
-	
+
 	public LibraryItem(String name) {
 		System.out.println("Creating new library item!");
 		System.out.println(name + " " + id + " added");
@@ -24,7 +24,6 @@ public abstract class LibraryItem {
 		return name;
 	}
 
-
 	public int getId() {
 		return id;
 	}
@@ -32,17 +31,19 @@ public abstract class LibraryItem {
 	public void setId(int id) {
 		this.id = id;
 	}
-	
-	public void checkOut() {
+
+	public void checkOut(Person p) {
+		People.myMap.put(p, this);
 		isAvail = false;
 	}
-	
-	public void checkIn() {
+
+	public void checkIn(Person p) {
+		People.myMap.remove(p, this);
 		isAvail = true;
 	}
 
 	public boolean isAvail() {
 		return isAvail;
 	}
-	
+
 }

@@ -23,31 +23,40 @@ public class Runner {
 		System.out.println(j1.getId());
 		System.out.println(dvd3.getId());
 
-		// Check out
-		j3.checkOut();
-		System.out.println(j3.isAvail());
-		j3.checkIn();
-		System.out.println(j3.isAvail());
+		People ppl = new People();
+		
+		Person david = new Person("David");
+		Person john = new Person("john");
+		Person alex = new Person("alex");
 
+		
+		System.out.println(People.myMap);
+		// Check out
+
+		j3.checkOut(david);
+		
+//		System.out.println(j3.isAvail());
+//		j3.checkIn();
+//		System.out.println(j3.isAvail());
+		
+		System.out.println("SHOULD BE HERE:");
+		System.out.println(ppl.myMap);
+		
+		j3.checkIn(david);
+		System.out.println("SHOULD BE HERE now:");
+		System.out.println(ppl.myMap);
+		
 		// Setting author
 		System.out.println(j3.getJournalAuthor());
 		j3.setJournalAuthor("Eminem");
 		System.out.println(j3.getJournalAuthor());
 
 		// Time for people
-
-		People ppl = new People();
-
-		Person david = new Person("David");
-		Person john = new Person("john");
-		Person alex = new Person("alex");
-		Person jenny = new Person("jenny");
-		Person deb  = new Person("deb");
-		Person nadeem = new Person("nadeem");
-		
+	
 
 		System.out.println(ppl.listPeople());
 
 	}
+
 
 }
