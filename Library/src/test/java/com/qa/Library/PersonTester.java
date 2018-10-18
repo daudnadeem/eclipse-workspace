@@ -8,14 +8,14 @@ public class PersonTester {
 
 	@Test
 	public void getName() throws Exception {
-		Person person = new Person("Khabib", 001);
+		Person person = new Person("Khabib");
 		assertEquals("Khabib", person.getName());
 	}
 		
 	@Test
 	public void getID() throws Exception{
-		Person person = new Person("Khabib", 002);
-		assertEquals(002, person.getID());
+		Person person = new Person("Khabib");
+		assertEquals(2, person.getID());
 		
 	}
 }

@@ -3,20 +3,8 @@ package com.qa.Library;
 import java.util.ArrayList;
 
 public class Library {
-	static ArrayList<LibraryItem> mainList;
-
-	public Library() {
-		mainList = new ArrayList<LibraryItem>();
-	}
-	
-	public Library(LibraryItem item) {
-		mainList.add(item);
-	}
-	
-	public Library(ArrayList<LibraryItem> mainList) {
-		super();
-		Library.mainList = mainList;
-	}
+	static ArrayList<LibraryItem> mainList = new ArrayList<LibraryItem>();
+		
 	
 	public void addItem(LibraryItem item) {
 		mainList.add(item);

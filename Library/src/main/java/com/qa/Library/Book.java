@@ -4,13 +4,12 @@ public class Book extends LibraryItem {
 	private String type;
 	private String author;
 
-	
-	public Book(String author, String name, int id,  String type) {
-		super(name, id);
+	public Book(String author, String name, String type) {
+		super(name);
 		this.author = author;
 		this.type = type;
 		Library.mainList.add(this);
-		
+
 	}
 
 	public String getBookAuthor() {
@@ -27,10 +26,7 @@ public class Book extends LibraryItem {
 
 	@Override
 	public String toString() {
-		return "Book [type=" + type + ", author=" + author + "]";
+		return "Book [Name: " + name + ", Author: " + author + "]";
 	}
-
-	
-
 
 }

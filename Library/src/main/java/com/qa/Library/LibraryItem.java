@@ -1,39 +1,48 @@
 package com.qa.Library;
 
 import java.util.ArrayList;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public abstract class LibraryItem {
 
-	private String name;
-	private int id; 
-	public static ArrayList<LibraryItem> mainList;
+	protected String name;
+	private static int nextIdNumber = 1;
+	protected int id = 1;
+	boolean isAvail = true;
 	
-
-	public LibraryItem (String name, int id) {
+	public LibraryItem(String name) {
 		System.out.println("Creating new library item!");
 		System.out.println(name + " " + id + " added");
 		this.name = name;
-		this.id = id;
-		Library.mainList.add(this);
-	}
+		id = nextIdNumber;
+		nextIdNumber++;
+		isAvail = true;
 
-	
-	@Override
-	public String toString() {
-		return "LibraryItem [name=" + name + ", id=" + id + "]";
 	}
-
 
 	public String getName() {
 		return name;
 	}
 
+
 	public int getId() {
 		return id;
 	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 	
-	public static ArrayList<LibraryItem> listLibrary(){
-		return mainList;
+	public void checkOut() {
+		isAvail = false;
+	}
+	
+	public void checkIn() {
+		isAvail = true;
+	}
+
+	public boolean isAvail() {
+		return isAvail;
 	}
 	
 }

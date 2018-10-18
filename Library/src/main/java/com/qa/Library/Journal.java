@@ -1,12 +1,12 @@
 package com.qa.Library;
 
-public class Journal extends LibraryItem{
-	
+public class Journal extends LibraryItem {
+
 	private String author;
 	private String dateOfCreation;
 
-	public Journal(String author, String dateOfCreation, String name, int id) {
-		super(name, id);
+	public Journal(String author, String dateOfCreation, String name) {
+		super(name);
 		this.author = author;
 		this.dateOfCreation = dateOfCreation;
 		Library.mainList.add(this);
@@ -14,7 +14,7 @@ public class Journal extends LibraryItem{
 
 	@Override
 	public String toString() {
-		return "Journal [author=" + author + ", dateOfCreation=" + dateOfCreation + "]";
+		return "Journal [Name: " + name + "Author: " + author + "]";
 	}
 
 	public String getJournalAuthor() {
@@ -32,6 +32,5 @@ public class Journal extends LibraryItem{
 	public void setDateOfCreation(String dateOfCreation) {
 		this.dateOfCreation = dateOfCreation;
 	}
-	
 
 }
