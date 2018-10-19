@@ -1,9 +1,0 @@
-package com.qa.Garage;
-
-public class Motorcycles extends Vehicle{
-	
-	private String brandName;
-	private String model;
-	private String typeOfMotorCycle;
-
-}

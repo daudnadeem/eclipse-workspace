@@ -1,5 +1,0 @@
-package com.qa.TestDriven;
-
-public interface NumberSource {
-	int fetchNextNumber();
-}

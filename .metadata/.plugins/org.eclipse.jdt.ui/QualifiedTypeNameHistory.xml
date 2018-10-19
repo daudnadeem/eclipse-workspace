@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
 <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
 <fullyQualifiedTypeName name="LambdasCalc.MathOperation"/>
@@ -19,8 +17,19 @@
 <fullyQualifiedTypeName name="com.qa.Library.Person"/>
 <fullyQualifiedTypeName name="com.qa.Library.LibraryItems"/>
 <fullyQualifiedTypeName name="com.qa.Library.Books"/>
-<fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicInteger"/>
 <fullyQualifiedTypeName name="com.qa.Library.Journals"/>
 <fullyQualifiedTypeName name="com.qa.Library.Book"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.qa.Library.Library"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.qa.Library.DVD"/>
+<fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicInteger"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
 </qualifiedTypeNameHistroy>

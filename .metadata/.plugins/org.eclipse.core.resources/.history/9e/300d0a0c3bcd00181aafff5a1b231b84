@@ -1,9 +1,0 @@
-package com.qa.TestDriven;
-
-public class Calculator {
-
-	public static long addTwoNumbers() {
-		return 0;
-	}
-
-}

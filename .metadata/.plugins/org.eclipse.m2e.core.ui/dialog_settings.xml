@@ -32,6 +32,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Admin\eclipse-workspace\Library"/>
+			<item value="C:\Users\Admin\eclipse-workspace\FlyWeightPattern"/>
 			<item value="C:\Users\Admin\eclipse-workspace\TestDriven"/>
 			<item value="C:\Users\Admin\eclipse-workspace\Delegate"/>
 		</list>
@@ -46,6 +48,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.qa.Anagram"/>
+			<item value="com.qa"/>
 			<item value="com.qa.Library"/>
 			<item value="com.qa.TestDriven"/>
 		</list>
@@ -53,6 +57,7 @@
 			<item value="com.qa"/>
 		</list>
 		<list key="artifactId">
+			<item value="Anagram"/>
 			<item value="Library"/>
 			<item value="TestDriven"/>
 		</list>

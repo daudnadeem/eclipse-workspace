@@ -1,9 +1,0 @@
-package com.qa.TestDriven;
-
-public class ArrayUtils {
-
-	public static int findHighest(int[] numbers) {
-		return 10;
-
-	}
-}

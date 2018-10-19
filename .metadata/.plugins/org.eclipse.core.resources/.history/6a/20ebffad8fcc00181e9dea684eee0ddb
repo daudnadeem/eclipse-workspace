@@ -1,7 +1,0 @@
-package com.qa.Garage;
-
-public class Garage {
-	
-	private static ArrayList<Vehicle> vehicles = new ArrayList ();
-
-}
