@@ -10045,3 +10045,27 @@ org.eclipse.core.runtime.CoreException: Launch configuration account application
 2018-10-31 10:15:32,333 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt\src\main\resources
 2018-10-31 10:15:32,333 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-10-31 10:15:32,333 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt\src\test\resources
+2018-10-31 10:19:54,906 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-31 10:19:54,906 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt\src\main\resources
+2018-10-31 10:19:54,907 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-31 10:19:54,907 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt\src\test\resources
+2018-10-31 10:20:59,341 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-31 10:20:59,341 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt\src\main\resources
+2018-10-31 10:20:59,341 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-31 10:20:59,341 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt\src\test\resources
+2018-10-31 10:21:51,648 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-31 10:21:51,648 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt\src\main\resources
+2018-10-31 10:21:51,649 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-31 10:21:51,649 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt\src\test\resources
+2018-10-31 10:21:57,762 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-31 10:21:57,762 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt\src\main\resources
+2018-10-31 10:21:57,763 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-31 10:21:57,764 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt\src\test\resources
+2018-10-31 10:22:40,499 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-31 10:22:40,499 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt\src\main\resources
+2018-10-31 10:22:40,499 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-31 10:22:40,499 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt\src\test\resources
+2018-10-31 10:22:46,589 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-31 10:22:46,589 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt\src\main\resources
+2018-10-31 10:22:46,590 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-31 10:22:46,591 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt\src\test\resources

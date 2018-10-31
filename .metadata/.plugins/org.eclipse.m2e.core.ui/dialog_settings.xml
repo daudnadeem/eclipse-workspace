@@ -74,6 +74,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.cognizant.myAccountt"/>
+			<item value="com.cognizant.myAccount"/>
 			<item value="com.qa.Account_Application"/>
 			<item value="com.qa.scrappyNew"/>
 			<item value="com.qa.scrappy"/>
@@ -85,9 +87,12 @@
 			<item value="com.qa.TestDriven"/>
 		</list>
 		<list key="groupId">
+			<item value="com.cognizant"/>
 			<item value="com.qa"/>
 		</list>
 		<list key="artifactId">
+			<item value="myAccountt"/>
+			<item value="myAccount"/>
 			<item value="Account-Application"/>
 			<item value="scrappyNew"/>
 			<item value="scrappy"/>
