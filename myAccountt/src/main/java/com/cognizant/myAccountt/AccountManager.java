@@ -52,5 +52,9 @@ public class AccountManager {
 		 return count;
 
 	}
+	
+	public long myStream(Map<Integer,String> myMap, String nameCheck) {
+		return myMap.entrySet().stream().filter(x -> x.getValue().equals(nameCheck)).count();
+	}
 
 }
