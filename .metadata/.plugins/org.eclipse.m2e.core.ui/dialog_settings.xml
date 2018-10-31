@@ -19,6 +19,18 @@
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
@@ -30,8 +42,22 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="com.qa"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="account-application"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Admin\Applications\TerrariaClone-master"/>
 			<item value="C:\Users\Admin\eclipse-workspace\Library"/>
 			<item value="C:\Users\Admin\eclipse-workspace\FlyWeightPattern"/>
 			<item value="C:\Users\Admin\eclipse-workspace\TestDriven"/>
@@ -48,6 +74,11 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.qa.Account_Application"/>
+			<item value="com.qa.scrappyNew"/>
+			<item value="com.qa.scrappy"/>
+			<item value="com.qa.scrappy_APIday01"/>
+			<item value="com.qa.tracker_docker"/>
 			<item value="com.qa.Anagram"/>
 			<item value="com.qa"/>
 			<item value="com.qa.Library"/>
@@ -57,6 +88,11 @@
 			<item value="com.qa"/>
 		</list>
 		<list key="artifactId">
+			<item value="Account-Application"/>
+			<item value="scrappyNew"/>
+			<item value="scrappy"/>
+			<item value="scrappy-APIday01"/>
+			<item value="tracker-docker"/>
 			<item value="Anagram"/>
 			<item value="Library"/>
 			<item value="TestDriven"/>
