@@ -1,22 +1,39 @@
-package com.cognizant.myAccountt;
+package com.cognizant.business.service;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import javax.inject.Inject;
+
+import com.cognizant.persistence.domain.Account;
+import com.cognizant.persistence.repository.AccountRepository;
+//import com.cognizant.persistence.repository.AccountRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 
-
-
-public class AccountManager {
+public class AccountServiceImpl {
 	
 	protected HashMap<Integer, String > myMap = new HashMap<Integer, String >();
 	protected String name;
 	protected String myOutput;
 	protected int count = 0;
+	
+	@Inject
+	protected AccountRepository repo;
+	
+	public String getAllAccounts() {
+		return repo.getAllAccounts();
+	}
 
+	public String getAnAccount(long id) {
+		return repo.getAccount(id);
+	}
+	
+	public String deleteAccount(Long id) {
+		return repo.deleteAccount(id);
+	}
 	
 	public void addAccount(Account acc) {
 		name = acc.getFirstName() + " " +  acc.getLastName();

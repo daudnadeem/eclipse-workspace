@@ -5,6 +5,9 @@ import java.util.Map;
 import org.junit.Assert;
 import org.junit.Test;
 
+import com.cognizant.business.service.AccountServiceImpl;
+import com.cognizant.persistence.domain.Account;
+
 public class AccountTest {
 	
 	
@@ -17,7 +20,7 @@ public class AccountTest {
 		Account acc4 = new Account("Slim", "Shady", 1231);
 		Account acc5 = new Account("Slim", "Shady", 12312312);
 		
-		AccountManager am = new AccountManager();
+		AccountServiceImpl am = new AccountServiceImpl();
 		am.addAccount(acc1);
 		am.addAccount(acc2);
 		am.addAccount(acc3);
@@ -39,7 +42,7 @@ public class AccountTest {
 		Account acc4 = new Account("Slim", "Shady", 1231);
 		Account acc5 = new Account("Slim", "Shady", 12312312);
 		
-		AccountManager am = new AccountManager();
+		AccountServiceImpl am = new AccountServiceImpl();
 		am.addAccount(acc1);
 		am.addAccount(acc2);
 		am.addAccount(acc3);

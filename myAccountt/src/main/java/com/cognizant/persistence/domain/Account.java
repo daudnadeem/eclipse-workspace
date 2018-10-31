@@ -1,11 +1,22 @@
-package com.cognizant.myAccountt;
+package com.cognizant.persistence.domain;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 public class Account {
 	
+	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
 	protected String firstName;
 	protected String lastName;
 	protected int accountNumber;
 
+	
+	public Account() {
+		
+	}
+	
 	public Account(String firstName, String lastName, int accountNumber) {
 		
 		this.firstName = firstName;

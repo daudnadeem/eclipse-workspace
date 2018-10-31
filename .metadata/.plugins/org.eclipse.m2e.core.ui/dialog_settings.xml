@@ -57,6 +57,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Admin\Documents\GitHub\eclipse-workspace\myAccountt"/>
 			<item value="C:\Users\Admin\Applications\TerrariaClone-master"/>
 			<item value="C:\Users\Admin\eclipse-workspace\Library"/>
 			<item value="C:\Users\Admin\eclipse-workspace\FlyWeightPattern"/>
@@ -74,6 +75,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.cognizant.movie_solution_1"/>
 			<item value="com.cognizant.myAccountt"/>
 			<item value="com.cognizant.myAccount"/>
 			<item value="com.qa.Account_Application"/>
@@ -91,6 +93,7 @@
 			<item value="com.qa"/>
 		</list>
 		<list key="artifactId">
+			<item value="movie-solution-1"/>
 			<item value="myAccountt"/>
 			<item value="myAccount"/>
 			<item value="Account-Application"/>

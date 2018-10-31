@@ -36,4 +36,9 @@
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+<fullyQualifiedTypeName name="com.cognizant.persistence.domain.Account"/>
+<fullyQualifiedTypeName name="com.cognizant.util.JSONUtil"/>
+<fullyQualifiedTypeName name="com.cognizant.business.service.AccountService"/>
+<fullyQualifiedTypeName name="com.cognizant.persistence.repository.AccountRepository"/>
 </qualifiedTypeNameHistroy>
